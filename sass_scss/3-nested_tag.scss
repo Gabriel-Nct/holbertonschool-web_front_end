@@ -1,0 +1,12 @@
+/* a Sass file that assigns No margin or padding in body tags */
+$nomargin: 0px;
+$nopadding: 0px;
+$margin_p: 10px;
+
+body {
+    margin: $nomargin;
+    padding: $nopadding;
+  p {
+    margin: $margin_p;
+  }
+}
