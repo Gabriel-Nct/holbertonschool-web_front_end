@@ -1,0 +1,15 @@
+/* a Sass file that assigns nested font size*/
+$fontsize_body: 14px;
+$fontsize_h1: 16px;
+$fontsize_smaller: 12px;
+
+body {
+    font-size: $fontsize_body;
+    
+    h1 {
+        font-size: $fontsize_h1;
+    }
+        > h1.smaller {
+            font-size: $fontsize_smaller;
+        }
+}
