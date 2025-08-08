@@ -8,8 +8,9 @@ body {
     
     h1 {
         font-size: $fontsize_h1;
-    }
-        > h1.smaller {
+        
+        &.smaller {
             font-size: $fontsize_smaller;
         }
+    }
 }
